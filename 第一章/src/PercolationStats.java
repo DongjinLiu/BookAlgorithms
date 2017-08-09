@@ -1,6 +1,11 @@
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
-
+/**
+ * Homework week1
+ * @author jin
+ * Date 2017/8/8
+ * Grade 81/100
+ */
 public class PercolationStats {
 
     private final double staMean;

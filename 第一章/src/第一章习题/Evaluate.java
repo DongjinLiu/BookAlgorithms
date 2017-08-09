@@ -33,7 +33,7 @@ public class Evaluate {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String expression="(1+2)*3+6/2";
+		String expression="3+(5-2)";
 		System.out.println(evaluate(InfixToPostfix.infixToPostfix(expression)));
 	}
 

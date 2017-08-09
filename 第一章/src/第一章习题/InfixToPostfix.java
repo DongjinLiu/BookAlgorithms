@@ -24,8 +24,10 @@ public class InfixToPostfix {
 		Stack<Character> operation = new Stack<Character>();
 		for (int i = 0; i < infix.length(); i++) {
 			if (infix.charAt(i) >= 48 && infix.charAt(i) <= 57) {
+			    //数字直接add到postfix
 				postfix += infix.charAt(i);
 			} else if (infix.charAt(i) == '(') {
+			    //'('直接push
 				operation.push('(');
 			} else if (infix.charAt(i) == ')') {
 				char temp;
@@ -54,7 +56,7 @@ public class InfixToPostfix {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//String str="(1+2)*(3-1)";
-		String str = "(1+2)*3+6/2";
+		String str = "3+(5-2)";
 		System.out.println(infixToPostfix(str));
 	}
 

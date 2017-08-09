@@ -1,5 +1,10 @@
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
-
+/**
+ * Homework week1
+ * @author jin
+ * Date 2017/8/8
+ * Grade 81/100
+ */
 public class Percolation {
 
     private final int n;
