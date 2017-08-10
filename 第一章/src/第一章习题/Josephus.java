@@ -7,7 +7,7 @@ public class Josephus {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         int n=7;
-        int m=3;
+        int m=2;
         Queue<Integer> q=new Queue<Integer>();
         for(int i=0;i<n;i++) {
             q.enqueue(i);

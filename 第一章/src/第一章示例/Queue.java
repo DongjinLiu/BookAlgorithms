@@ -27,7 +27,7 @@ public class Queue<Item> implements Iterable<Item>{
 		last.item=item;
 		last.next=null;
 		if(isEmpty()) {
-			first=last;
+			first=last; 
 		}else {
 			oldLast.next=last;
 		}
@@ -83,10 +83,10 @@ public class Queue<Item> implements Iterable<Item>{
 		queue.enqueue(1);
 		queue.enqueue(2);
 		queue.enqueue(3);
-		System.out.println(queue.getIndexOf(1));
-//		for(Integer i:queue) {
-//			System.out.println(i);
-//		}
+		//System.out.println(queue.getIndexOf(1));
+		for(Integer i:queue) {
+			System.out.println(i);
+		}
 //		queue.dequeue();
 //		queue.dequeue();
 //		System.out.println();

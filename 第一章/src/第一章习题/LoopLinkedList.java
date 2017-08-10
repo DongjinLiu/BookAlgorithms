@@ -94,7 +94,7 @@ public class LoopLinkedList<Item> implements Iterable<Item> {
         int n = 7;
         int m = 2;
         LoopLinkedList<Integer> l = new LoopLinkedList<Integer>();
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < n; i++) {
             l.addAtLast(i);
         }
 
