@@ -26,12 +26,12 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
         return n;
     }
 
-    public int size(Key lo,Key hi) {
-        int i=rank(lo);
-        int j=rank(hi);
-        return j-i+1;
+    public int size(Key lo, Key hi) {
+        int i = rank(lo);
+        int j = rank(hi);
+        return j - i + 1;
     }
-    
+
     public boolean isEmpty() {
         return n == 0;
     }
@@ -103,11 +103,11 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
     public void deleteMin() {
         delete(min());
     }
-    
+
     public void deleteMax() {
         delete(max());
     }
-    
+
     public Key min() {
         return keys[0];
     }
